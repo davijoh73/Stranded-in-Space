@@ -448,6 +448,7 @@
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoom.cs" />
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoomManager.cs" />
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioSource.cs" />
+    <Compile Include="Assets\Scripts\CockpitChair.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
   </ItemGroup>
   <ItemGroup>
