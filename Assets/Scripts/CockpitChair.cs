@@ -46,6 +46,7 @@ public class CockpitChair : MonoBehaviour {
             //Change which button is lit
             buttonMats[0] = buttonDark1;
             buttonMats[1] = buttonLit1;
+            buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
             //Figure out how to use resonance audio to play button sound
         }
@@ -57,6 +58,7 @@ public class CockpitChair : MonoBehaviour {
             //Change which button is lit
             buttonMats[1] = buttonDark2;
             buttonMats[0] = buttonLit2;
+            buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
             //Use resonance audio to play button sound
 

@@ -200,5 +200,8 @@ a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrControllerInput
 e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
-d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 422a58f7b57e70acd3df3b6b6105ed7c Assembly-CSharp.dll:.CockpitChair
+d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
+3a485fcf8726b6c3ebd55c212d6f9340 Assembly-CSharp.dll:.EmergencyAlarm
+6c9c02b7dd80be2c2648ec0c767b35c1 Assembly-CSharp.dll:.RedKey
+9b567636bcd96207a9aace34f1958a7e Assembly-CSharp.dll:.RedDoor
