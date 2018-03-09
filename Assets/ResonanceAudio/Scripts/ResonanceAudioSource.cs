@@ -72,9 +72,10 @@ public class ResonanceAudioSource : MonoBehaviour {
 
   /// Unity audio source attached to the game object.
   public AudioSource audioSource { get; private set; }
+    public AudioClip clip { get; internal set; }
 
-  // Native audio spatializer effect data.
-  private enum EffectData {
+    // Native audio spatializer effect data.
+    private enum EffectData {
     Id = 0,  // ID.
     DistanceAttenuation = 1,  // Computed distance attenuation.
     BypassRoomEffects = 2,  // Should bypass room effects?

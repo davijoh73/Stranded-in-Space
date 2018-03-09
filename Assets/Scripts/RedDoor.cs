@@ -5,29 +5,27 @@ using UnityEngine;
 public class RedDoor : MonoBehaviour 
 {
     //The locked variable is used in the Unlock method to "unlock" the door
-    public bool locked = true;
-    public bool alarm = true;
+    public bool locked = false;
     //Trigger used to open the door once it's unlocked
     public bool openDoor = false;
     //Sound clips used for when the door is locked, and when it's opened
-    public GvrAudioSource soundSource;
+    public AudioSource soundSource;
     public AudioClip doorLocked;
     public AudioClip doorOpen;
-    public GameObject accessDenied, accessGranted, nextSection;
+    public GameObject topHalf, bottomHalf, accessDenied, accessGranted;
 
     void Update() {
         //If door is unlocked and not fully raised, continue raising door
-        if (openDoor && transform.position.y < 2.2f)
+        if (openDoor && topHalf.transform.position.y < 1.34f)
         {
-            transform.Translate(0, 1.7f * Time.deltaTime, 0, Space.World);
+            topHalf.transform.Translate(0, 1.5f * Time.deltaTime, 0, Space.World);
+            bottomHalf.transform.Translate(0, -1.5f * Time.deltaTime, 0, Space.World);
         }
     }
 
     public void OnDoorClicked() {
-        if (locked == false && alarm == false)
+        if (locked == false)
         {
-            //Activate next section of ship previously hidden for performance improvement
-            nextSection.SetActive(true);
 
             //Change the message on the access panel
             accessDenied.SetActive(false);
@@ -52,9 +50,4 @@ public class RedDoor : MonoBehaviour
         locked = false;
     }
 
-    public void Alarm()
-    {
-        //Call this method when alarm system is disabled
-        alarm = false;
-    }
 }

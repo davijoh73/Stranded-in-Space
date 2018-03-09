@@ -58,6 +58,6 @@ public class EmergencyAlarm : MonoBehaviour {
         buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
         //Disable emergency door lock
-        bridgeDoor.GetComponent<RedDoor>().Alarm();
+        bridgeDoor.GetComponent<RedDoor>().Unlock();
     }
 }
