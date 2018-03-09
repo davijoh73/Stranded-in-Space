@@ -448,11 +448,10 @@
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoom.cs" />
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoomManager.cs" />
     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioSource.cs" />
+    <Compile Include="Assets\Scripts\BridgeDoor.cs" />
     <Compile Include="Assets\Scripts\CockpitChair.cs" />
     <Compile Include="Assets\Scripts\EmergencyAlarm.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
-    <Compile Include="Assets\Scripts\RedDoor.cs" />
-    <Compile Include="Assets\Scripts\RedKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />

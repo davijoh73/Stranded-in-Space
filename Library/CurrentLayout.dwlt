@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1600
     height: 767
-  m_MinSize: {x: 583, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 581, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 79
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 767
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 989
     height: 496
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -324,9 +324,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.0678668, y: 1.4025755, z: 4.400567}
+    m_Target: {x: -0.1253643, y: 0.88369656, z: 4.1533136}
     speed: 2
-    m_Value: {x: 0.0678668, y: 1.4025755, z: 4.400567}
+    m_Value: {x: -0.1253643, y: 0.88369656, z: 4.1533136}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -350,9 +350,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0789071, y: 0.24001887, z: -0.019582454, w: -0.9673578}
+    m_Target: {x: -0.13694765, y: 0.27135703, z: -0.039044324, w: -0.95188564}
     speed: 2
-    m_Value: {x: -0.0789071, y: 0.24001887, z: -0.019582454, w: -0.9673578}
+    m_Value: {x: -0.13694765, y: 0.27135703, z: -0.039044324, w: -0.95188564}
   m_Size:
     m_Target: 4.3296328
     speed: 2
@@ -493,19 +493,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Sounds
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sounds
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Dave\Documents\VR Projects\Stranded in Space
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 59}
-    m_SelectedIDs: be2a0000
-    m_LastClickedID: 10942
-    m_ExpandedIDs: 00000000cc290000e6290000a62b0000ac2b0000422c0000902d0000d02f0000d439000000ca9a3bffffff7f
+    m_SelectedIDs: 062c0000
+    m_LastClickedID: 11270
+    m_ExpandedIDs: 00000000cc290000e6290000a62b0000ac2b0000422c0000902d0000d02f00002838000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,7 +533,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc290000e6290000a62b0000ac2b0000422c0000902d0000d02f0000d4390000
+    m_ExpandedIDs: 00000000cc290000e6290000a62b0000ac2b0000422c0000902d0000d02f000028380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c0280000fc270000ec27000092280000fa270000000000009a2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 42320000
     m_LastClickedID: 12866
-    m_ExpandedIDs: f4f5ffff90f8ffffdaf8ffff9efbffff00000000423200008434000058350000
+    m_ExpandedIDs: 9efbffff00000000423200008434000058350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

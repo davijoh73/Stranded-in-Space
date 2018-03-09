@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EmergencyAlarm : MonoBehaviour {
 
-    public GvrAudioSource alarm1, alarm2;
+    public AudioSource alarm1, alarm2;
     public GameObject eLight1, eLight2, bridgeLight1, bridgeLight2, bridgeLight3, bridgeLight4, bridgeDoor;
     public Material eLightDark, bridgeLightLit, buttonLit, buttonDark;
     public GameObject eLight1Obj, eLight2Obj, bridgeLight1Obj, bridgeLight2Obj, buttonObj;
     Material[] eLightMats, bridgeLightMats, buttonMats;
-    public GvrAudioSource soundSource;
+    public AudioSource soundSource;
     public AudioClip buttonPressSound;
 
     // Use this for initialization
@@ -58,6 +58,6 @@ public class EmergencyAlarm : MonoBehaviour {
         buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
         //Disable emergency door lock
-        bridgeDoor.GetComponent<RedDoor>().Unlock();
+        bridgeDoor.GetComponent<BridgeDoor>().Unlock();
     }
 }
