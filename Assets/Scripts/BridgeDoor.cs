@@ -48,10 +48,6 @@ public class BridgeDoor : MonoBehaviour
         if (locked == false)
         {
 
-            //Change the message on the access panel
-            //accessDenied.SetActive(false);
-            //accessGranted.SetActive(true);
-            
             //Trigger the door to open via animation script and play opening door sound
             openDoor = true;
             doorTimer = 3; //reset door timer
@@ -71,6 +67,10 @@ public class BridgeDoor : MonoBehaviour
     {
         //Call this method to unlock the door
         locked = false;
+
+        //Change the message on the access panel
+        accessDenied.SetActive(false);
+        accessGranted.SetActive(true);
     }
 
 }
