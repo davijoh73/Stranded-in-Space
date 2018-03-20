@@ -343,6 +343,17 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcBoxMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcCircleMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcColumnMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcCylinderMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcPlaneMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcPrimitivesMenu.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcPyramidMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcSectionMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcSphereMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcStairMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcTorusMeshEditor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioBuildProcessor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioListenerEditor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioReverbBakingWindow.cs" />
