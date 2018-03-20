@@ -29,8 +29,8 @@ public class EmergencyAlarm : MonoBehaviour {
     public void ResetAlarm()
     {
         //Stop alarm audio
-        //alarm1.Stop();
-        //alarm2.Stop();
+        alarm1.Stop();
+        alarm2.Stop();
 
         //Play button press sound
         soundSource.clip = buttonPressSound;

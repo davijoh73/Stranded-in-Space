@@ -12,7 +12,7 @@ public class CockpitChair : MonoBehaviour {
     Material[] buttonMats;
 
     //Sound clips used for when the button is clicked
-    public ResonanceAudioSource soundSource;
+    public AudioSource soundSource;
     public AudioClip buttonPressSound;
 
     //Chair to move either forward or backwards

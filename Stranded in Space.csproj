@@ -464,6 +464,7 @@
     <Compile Include="Assets\Scripts\CockpitChair.cs" />
     <Compile Include="Assets\Scripts\EmergencyAlarm.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
+    <Compile Include="Assets\Scripts\StandardDoor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />

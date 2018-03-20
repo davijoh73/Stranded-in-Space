@@ -9,7 +9,7 @@ public class BridgeDoor : MonoBehaviour
     //Trigger used to open the door once it's unlocked
     public bool openDoor = false;
     //Timer variable that counts down before door closes again
-    public static float doorTimer = 3;
+    public static float doorTimer = 5;
     //Sound clips used for when the door is locked, and when it's opened
     public AudioSource soundSource;
     public AudioClip doorLocked;
@@ -50,7 +50,7 @@ public class BridgeDoor : MonoBehaviour
 
             //Trigger the door to open via animation script and play opening door sound
             openDoor = true;
-            doorTimer = 3; //reset door timer
+            doorTimer = 5; //reset door timer
             //Play audio clip of door opening/closing
             soundSource.clip = doorOpen;
             soundSource.Play();
