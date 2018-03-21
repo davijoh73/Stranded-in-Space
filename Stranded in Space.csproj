@@ -463,6 +463,7 @@
     <Compile Include="Assets\Scripts\BridgeDoor.cs" />
     <Compile Include="Assets\Scripts\CockpitChair.cs" />
     <Compile Include="Assets\Scripts\EmergencyAlarm.cs" />
+    <Compile Include="Assets\Scripts\FoodGenerator.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
     <Compile Include="Assets\Scripts\StandardDoor.cs" />
   </ItemGroup>
