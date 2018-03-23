@@ -17,7 +17,7 @@ public class EmergencyAlarm : MonoBehaviour {
 
         //Start audio for alarm Klaxons
 
-        //Grab the materials for each object that need to be changed later
+        //Grab the materials for each object that needs to be changed later
         buttonMats = buttonObj.GetComponent<Renderer>().materials;
     }
 	
