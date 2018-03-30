@@ -464,8 +464,10 @@
     <Compile Include="Assets\Scripts\CockpitChair.cs" />
     <Compile Include="Assets\Scripts\EmergencyAlarm.cs" />
     <Compile Include="Assets\Scripts\FoodGenerator.cs" />
+    <Compile Include="Assets\Scripts\LabDoor.cs" />
+    <Compile Include="Assets\Scripts\MessDoor.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
-    <Compile Include="Assets\Scripts\StandardDoor.cs" />
+    <Compile Include="Assets\Scripts\OpenLabCrate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />

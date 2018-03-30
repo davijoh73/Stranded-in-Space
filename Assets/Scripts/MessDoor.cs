@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StandardDoor : MonoBehaviour
+public class MessDoor : MonoBehaviour
 {
     //Trigger used to open the door
     public bool openDoor = false;
