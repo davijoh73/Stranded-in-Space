@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 917
-  m_MinSize: {x: 581, y: 471}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 664, y: 471}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 183
+  controlID: 79
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,16 +64,16 @@ MonoBehaviour:
     y: 0
     width: 374
     height: 917
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 360, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 20}
   - {fileID: 18}
   - {fileID: 16}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
     y: 0
     width: 1680
     height: 967
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 471}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 184
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 185
+  controlID: 81
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.4763937, y: -2.019852, z: -80.98938}
+    m_Target: {x: -6.6791115, y: -2.0478199, z: -52.212376}
     speed: 2
-    m_Value: {x: -2.4763937, y: -2.019852, z: -80.98938}
+    m_Value: {x: -6.6791115, y: -2.0478199, z: -52.212376}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -441,13 +441,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.00032242027, y: -0.99965334, z: 0.021496516, w: 0.015201178}
+    m_Target: {x: 0.0009377835, y: -0.99889576, z: 0.02298382, w: 0.040964376}
     speed: 2
-    m_Value: {x: 0.00032242027, y: -0.99965334, z: 0.021496516, w: 0.015201178}
+    m_Value: {x: 0.0009377835, y: -0.99889576, z: 0.02298382, w: 0.040964376}
   m_Size:
-    m_Target: 90.70812
+    m_Target: 86.62626
     speed: 2
-    m_Value: 90.70812
+    m_Value: 86.62626
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -584,18 +584,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SciFiPack1/Models/Materials
+    - Assets/SciFiPack1/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SciFiPack1/Models/Materials
+  - Assets/SciFiPack1/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Dave\Documents\VR Projects\Stranded in Space
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 63}
-    m_SelectedIDs: e42d0000
-    m_LastClickedID: 11748
+    m_SelectedIDs: f22b0000
+    m_LastClickedID: 11250
     m_ExpandedIDs: 00000000002a00001a2a0000f22b0000f82b0000ee2d000040300000c4300000923c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c0280000fc270000ec27000092280000fa270000000000009a2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 75}
+    m_ScrollPosition: {x: 0, y: 239}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 243
 --- !u!114 &20
@@ -742,9 +742,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 74330000
-    m_LastClickedID: 13172
-    m_ExpandedIDs: 9efbffff0000000066330000743300007a330000fc330000163400002a3500008235000060360000f8360000163700008e390000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 94d6fcffe2d7fcff86d9fcff7cddffffeaf3ffff9efbffff00000000f4350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
