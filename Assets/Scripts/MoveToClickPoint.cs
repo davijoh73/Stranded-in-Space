@@ -4,6 +4,8 @@ using UnityEngine.AI;
 public class MoveToClickPoint : MonoBehaviour
 {
     NavMeshAgent agent;
+    public AudioSource soundSource;
+    public AudioClip footStepsClip;
 
     // Use this for initialization
     void Start()
@@ -29,10 +31,27 @@ public class MoveToClickPoint : MonoBehaviour
                 }
                 else
                 {
+                    //Move to location that was hit with raycast
                     agent.destination = hit.point;
                     agent.isStopped = false;
+
                 }
             }
+        }
+
+        //Play audio clip of footsteps if navmesh agent is moving
+        if (agent.remainingDistance > 0)
+        {
+            //Play audio clip of footsteps (only play if it is not already playing)
+            if (!soundSource.isPlaying)
+            {
+                soundSource.clip = footStepsClip;
+                soundSource.Play();
+            }
+        }
+        else
+        {
+            soundSource.Stop();
         }
     }
 }
