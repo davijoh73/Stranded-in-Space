@@ -182,6 +182,23 @@ namespace QuickPrimitives
             Selection.activeObject = plane;
         }
 
+        [MenuItem("GameObject/Quick Primitives/Grid", false, 10)]
+        private static void CreateFrame(MenuCommand menuCommand)
+        {
+            // Create a custom game object
+            GameObject grid = new GameObject("QcGridMesh");
+            grid.AddComponent<QcGridMesh>();
+            grid.name = "QcGrid";
+            grid.GetComponent<MeshRenderer>().material = new Material(Shader.Find("Diffuse"));
+
+            // Ensure it gets reparented if this was a context click (otherwise does nothing)
+            GameObjectUtility.SetParentAndAlign(grid, menuCommand.context as GameObject);
+
+            // Register the creation in the undo system
+            Undo.RegisterCreatedObjectUndo(grid, "Create " + grid.name);
+            Selection.activeObject = grid;
+        }
+
 #endif
     }
 }

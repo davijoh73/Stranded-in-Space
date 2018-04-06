@@ -30,7 +30,7 @@ public class CockpitChair : MonoBehaviour {
         {
             cockpitChair.transform.Translate(0, 0, 0.8f * Time.deltaTime, Space.World);
         }
-        else if (cockpitChair.transform.position.z > -0.8f)
+        else if (!chairOpen && cockpitChair.transform.position.z > -0.8f)
         {
             cockpitChair.transform.Translate(0, 0, -0.8f * Time.deltaTime, Space.World);
         }

@@ -347,6 +347,7 @@
     <Compile Include="Assets\QcPrimitives\Editor\QcCircleMeshEditor.cs" />
     <Compile Include="Assets\QcPrimitives\Editor\QcColumnMeshEditor.cs" />
     <Compile Include="Assets\QcPrimitives\Editor\QcCylinderMeshEditor.cs" />
+    <Compile Include="Assets\QcPrimitives\Editor\QcGridEditor.cs" />
     <Compile Include="Assets\QcPrimitives\Editor\QcPlaneMeshEditor.cs" />
     <Compile Include="Assets\QcPrimitives\Editor\QcPrimitivesMenu.cs" />
     <Compile Include="Assets\QcPrimitives\Editor\QcPyramidMeshEditor.cs" />

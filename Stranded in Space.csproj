@@ -441,6 +441,7 @@
     <Compile Include="Assets\QcPrimitives\Scripts\QcCircleMesh.cs" />
     <Compile Include="Assets\QcPrimitives\Scripts\QcColumnMesh.cs" />
     <Compile Include="Assets\QcPrimitives\Scripts\QcCylinderMesh.cs" />
+    <Compile Include="Assets\QcPrimitives\Scripts\QcGridMesh.cs" />
     <Compile Include="Assets\QcPrimitives\Scripts\QcPlaneMesh.cs" />
     <Compile Include="Assets\QcPrimitives\Scripts\QcPrimitivesBase.cs" />
     <Compile Include="Assets\QcPrimitives\Scripts\QcPyramidMesh.cs" />
