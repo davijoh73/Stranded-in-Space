@@ -48,7 +48,12 @@ public class CockpitChair : MonoBehaviour {
             buttonMats[1] = buttonLit1;
             buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
-            //Figure out how to use resonance audio to play button sound
+            //Play button sound
+            soundSource.clip = buttonPressSound;
+            soundSource.Play();
+
+            //Initiate chair moving sound from chair game object
+            cockpitChair.GetComponent<AudioSource>().Play();
         }
         else
         {
@@ -60,8 +65,12 @@ public class CockpitChair : MonoBehaviour {
             buttonMats[0] = buttonLit2;
             buttonObj.GetComponent<Renderer>().materials = buttonMats;
 
-            //Use resonance audio to play button sound
+            //Play button sound
+            soundSource.clip = buttonPressSound;
+            soundSource.Play();
 
+            //Initiate chair moving sound from chair game object
+            cockpitChair.GetComponent<AudioSource>().Play();
         }
     }
 }
