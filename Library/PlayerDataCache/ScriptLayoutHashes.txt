@@ -196,7 +196,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 878df31d996d9526d5b85802f655a553 Assembly-CSharp.dll:QuickPrimitives.QcPyramidMesh
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveToClickPoint
+9381f00f32f7fb0ac0866cdb2b57e3a5 Assembly-CSharp.dll:.MoveToClickPoint
 f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
