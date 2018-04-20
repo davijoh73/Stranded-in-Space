@@ -27,10 +27,14 @@ public class OpenLabCrate : MonoBehaviour {
 
     public void OnCrateClick()
     {
+        if (!crateOpen)
+        {
+            //Play audio clip of lid opening
+            soundSource.clip = crateSound;
+            soundSource.Play();
+        }
+        
         crateOpen = true;
-        //Play audio clip of lid opening
-        soundSource.clip = crateSound;
-        soundSource.Play();
 
     }
 }
