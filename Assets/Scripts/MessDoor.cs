@@ -27,6 +27,7 @@ public class MessDoor : MonoBehaviour
         {
             topHalf.transform.Translate(0, -1.5f * Time.deltaTime, 0, Space.World);
             bottomHalf.transform.Translate(0, 1.5f * Time.deltaTime, 0, Space.World);
+
             //Play audio clip of door opening/closing (only play if it is not already playing, so that it only plays once during close sequence)
             if (!soundSource.isPlaying)
             {

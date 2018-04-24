@@ -470,6 +470,7 @@
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
     <Compile Include="Assets\Scripts\OpenLabCrate.cs" />
     <Compile Include="Assets\Scripts\ToiletFlush.cs" />
+    <Compile Include="Assets\Scripts\VertCrewDoor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />

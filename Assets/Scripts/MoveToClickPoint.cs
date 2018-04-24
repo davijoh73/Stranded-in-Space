@@ -42,11 +42,15 @@ public class MoveToClickPoint : MonoBehaviour
         //Play audio clip of footsteps if navmesh agent is moving
         if (agent.remainingDistance > 0)
         {
-            //Play audio clip of footsteps (only play if it is not already playing)
-            if (!soundSource.isPlaying)
+            //Don't play audio clip if the agent is not moving
+            if (!agent.isStopped)
             {
-                soundSource.clip = footStepsClip;
-                soundSource.Play();
+                //Play audio clip of footsteps (only play if it is not already playing)
+                if (!soundSource.isPlaying)
+                {
+                    soundSource.clip = footStepsClip;
+                    soundSource.Play();
+                }
             }
         }
         else
