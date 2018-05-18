@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stranded in Space", "Stranded in Space.csproj", "{2D62A44D-D9DB-7C44-0041-378C1FECA372}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stranded in Space.Editor", "Stranded in Space.Editor.csproj", "{30EE57BC-7764-BFA3-2F0C-3DA39E900C46}"

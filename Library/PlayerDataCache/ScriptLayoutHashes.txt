@@ -137,6 +137,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+ab5dbc1003fd0c21ef61f7757322f0e4 Assembly-CSharp.dll:.ToiletFlush
 3b1ccbae460b4026384881dd76875a77 Assembly-CSharp.dll:.ResonanceAudioDemoManager
 d1c3e82f2b0cd58f69da28731aba569d Assembly-CSharp.dll:.FoodGenerator
 309a212665e739c7b5fe6bc112914c3d Assembly-CSharp.dll:QuickPrimitives.QcSectionMesh
@@ -203,6 +204,7 @@ f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
 a67b85152098211e10dcc9ddb9c669da Assembly-CSharp.dll:QuickPrimitives.QcStairMesh
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.ScrubberEvents
+df43e17a8355300c2a150859fcd78d1a Assembly-CSharp.dll:.VertCrewDoor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoControlsManager
 9546f843cb3e33d7d1be22017cd7858d Assembly-CSharp.dll:.ResonanceAudioReverbProbe
 81dc5af3744a08050494c77f5012051e Assembly-CSharp.dll:.GvrPointerGraphicRaycaster
@@ -220,4 +222,3 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 be58ec7f97c72f5d64ec212289fec824 Assembly-CSharp.dll:.CockpitChair
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
-ab5dbc1003fd0c21ef61f7757322f0e4 Assembly-CSharp.dll:.ToiletFlush
