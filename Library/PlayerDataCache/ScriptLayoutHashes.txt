@@ -222,3 +222,5 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 be58ec7f97c72f5d64ec212289fec824 Assembly-CSharp.dll:.CockpitChair
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
+9e2f65ebd1cac70d59f6b356d58c9c53 Assembly-CSharp.dll:.CrewDoorMain
+ec77655c5ce77d38cc1cb0eeb34b9999 Assembly-CSharp.dll:.OpenCrewCrate
