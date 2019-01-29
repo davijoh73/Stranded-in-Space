@@ -23,7 +23,8 @@ public class OpenCrewCrate : MonoBehaviour
         if (crateOpen && x < 90f)
         {
             x += Time.deltaTime * 45f;
-            crateLid.transform.rotation = Quaternion.Euler(x, 0, 0);
+            //-195 is to adjust for the position of the crate in world space - quaternion operates in world space
+            crateLid.transform.rotation = Quaternion.Euler(x, -195, 0);
         }
     }
 

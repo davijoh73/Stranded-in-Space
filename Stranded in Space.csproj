@@ -468,9 +468,11 @@
     <Compile Include="Assets\Scripts\EmergencyAlarm.cs" />
     <Compile Include="Assets\Scripts\FoodGenerator.cs" />
     <Compile Include="Assets\Scripts\LabDoor.cs" />
+    <Compile Include="Assets\Scripts\LockedDrawer.cs" />
     <Compile Include="Assets\Scripts\MessDoor.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
     <Compile Include="Assets\Scripts\OpenCrewCrate.cs" />
+    <Compile Include="Assets\Scripts\OpenDeskDrawer.cs" />
     <Compile Include="Assets\Scripts\OpenLabCrate.cs" />
     <Compile Include="Assets\Scripts\ToiletFlush.cs" />
     <Compile Include="Assets\Scripts\VertCrewDoor.cs" />
