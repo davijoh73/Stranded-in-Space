@@ -16,16 +16,16 @@ public class OpenDeskDrawer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(drawerOpen && deskDrawer.transform.position.z > 29.79f)
+		if(drawerOpen && deskDrawer.transform.position.z > 28.71f)
         {
             deskDrawer.transform.Translate(0f, 0f, -0.7f * Time.deltaTime, Space.World);
         }
-        else if(!drawerOpen && deskDrawer.transform.position.z < 30.26f)
+        else if(!drawerOpen && deskDrawer.transform.position.z < 29.13f)
         {
             deskDrawer.transform.Translate(0f, 0f, 0.7f * Time.deltaTime, Space.World);
         }
 
-        Debug.Log("X position: " + deskDrawer.transform.position.x + " Y position: " + deskDrawer.transform.position.y + " Z position: " + deskDrawer.transform.position.z);
+        //Debug.Log("X position: " + deskDrawer.transform.position.x + " Y position: " + deskDrawer.transform.position.y + " Z position: " + deskDrawer.transform.position.z);
     }
 
     public void OnDrawerClick()
