@@ -6,6 +6,7 @@ public class MoveToClickPoint : MonoBehaviour
     NavMeshAgent agent;
     public AudioSource soundSource;
     public AudioClip footStepsClip;
+    private float checkIfMoving, previousPos = 0;
 
     // Use this for initialization
     void Start()
@@ -39,8 +40,14 @@ public class MoveToClickPoint : MonoBehaviour
             }
         }
 
+        checkIfMoving = (previousPos - agent.remainingDistance);
+        previousPos = agent.remainingDistance;
+
+        Debug.Log("Remaining distance between Agent and target position: " + agent.remainingDistance);
+        Debug.Log("checkIfMoving: " + checkIfMoving);
+
         //Play audio clip of footsteps if navmesh agent is moving
-        if (agent.remainingDistance > 0)
+        if (agent.remainingDistance > 0 && checkIfMoving != 0)
         {
             //Don't play audio clip if the agent is not moving
             if (!agent.isStopped)
