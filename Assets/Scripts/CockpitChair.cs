@@ -26,11 +26,11 @@ public class CockpitChair : MonoBehaviour {
 
     void Update () {
         //If button is pressed and chair is in flight mode, move back to open cockpit
-        if (chairOpen && cockpitChair.transform.position.z < 1.2f)
+        if (chairOpen && cockpitChair.transform.position.z < 1f)
         {
             cockpitChair.transform.Translate(0, 0, 0.8f * Time.deltaTime, Space.World);
         }
-        else if (!chairOpen && cockpitChair.transform.position.z > -0.8f)
+        else if (!chairOpen && cockpitChair.transform.position.z > -0.39f)
         {
             cockpitChair.transform.Translate(0, 0, -0.8f * Time.deltaTime, Space.World);
         }

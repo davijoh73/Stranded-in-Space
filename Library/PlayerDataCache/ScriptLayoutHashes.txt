@@ -51,6 +51,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 8a8bbf8c923aa45b1565ce9733c32e8e Assembly-CSharp.dll:GoogleVR.PermissionsDemo.PermissionsFlowManager
+9e2f65ebd1cac70d59f6b356d58c9c53 Assembly-CSharp.dll:.CrewDoorMain
 8b8d573315d3b0f2cea37c3653f4c9fb Assembly-CSharp.dll:GoogleVR.VideoDemo.AppButtonInput
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -140,6 +141,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 02b3ed7a96a61f88d81411c8d12dc1a5 Assembly-CSharp.dll:.ToiletFlush
 3b1ccbae460b4026384881dd76875a77 Assembly-CSharp.dll:.ResonanceAudioDemoManager
 d1c3e82f2b0cd58f69da28731aba569d Assembly-CSharp.dll:.FoodGenerator
+ec77655c5ce77d38cc1cb0eeb34b9999 Assembly-CSharp.dll:.OpenCrewCrate
 309a212665e739c7b5fe6bc112914c3d Assembly-CSharp.dll:QuickPrimitives.QcSectionMesh
 9c1218a87b0c607e9d8b2b769e607584 Assembly-CSharp.dll:QuickPrimitives.QcPrimitivesBase
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
@@ -160,6 +162,7 @@ ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrTrackedController
 47a3d0e1b8e9e598795ae81717eb2f87 Assembly-CSharp.dll:.ResonanceAudioSource
 081bf274bfc842201ac522983c1a9317 Assembly-CSharp.dll:QuickPrimitives.QcTorusMesh
 ec77655c5ce77d38cc1cb0eeb34b9999 Assembly-CSharp.dll:.OpenLabCrate
+c7f34f761b04ad55c8fe215bcf814c0e Assembly-CSharp.dll:.LockedDrawer
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -182,6 +185,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 03bbed44bf0809da9eb453e702673301 Assembly-CSharp.dll:.ResonanceAudioRoom
+df43e17a8355300c2a150859fcd78d1a Assembly-CSharp.dll:.VertCaptDoor
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrControllerVisualManager
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 1f3a68064dbfa3445b5941d1d23a8ce5 Assembly-CSharp.dll:.GvrPointerPhysicsRaycaster
@@ -204,6 +208,7 @@ f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
 a67b85152098211e10dcc9ddb9c669da Assembly-CSharp.dll:QuickPrimitives.QcStairMesh
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.ScrubberEvents
+21a528b564e231f636ff477deddf2198 Assembly-CSharp.dll:.OpenDeskDrawer
 df43e17a8355300c2a150859fcd78d1a Assembly-CSharp.dll:.VertCrewDoor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoControlsManager
 9546f843cb3e33d7d1be22017cd7858d Assembly-CSharp.dll:.ResonanceAudioReverbProbe
@@ -222,5 +227,3 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 be58ec7f97c72f5d64ec212289fec824 Assembly-CSharp.dll:.CockpitChair
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
-9e2f65ebd1cac70d59f6b356d58c9c53 Assembly-CSharp.dll:.CrewDoorMain
-ec77655c5ce77d38cc1cb0eeb34b9999 Assembly-CSharp.dll:.OpenCrewCrate

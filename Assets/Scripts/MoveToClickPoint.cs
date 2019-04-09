@@ -43,8 +43,8 @@ public class MoveToClickPoint : MonoBehaviour
         checkIfMoving = (previousPos - agent.remainingDistance);
         previousPos = agent.remainingDistance;
 
-        Debug.Log("Remaining distance between Agent and target position: " + agent.remainingDistance);
-        Debug.Log("checkIfMoving: " + checkIfMoving);
+        //Debug.Log("Remaining distance between Agent and target position: " + agent.remainingDistance);
+        //Debug.Log("checkIfMoving: " + checkIfMoving);
 
         //Play audio clip of footsteps if navmesh agent is moving
         if (agent.remainingDistance > 0 && checkIfMoving != 0)
