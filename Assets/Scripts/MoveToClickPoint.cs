@@ -6,7 +6,9 @@ public class MoveToClickPoint : MonoBehaviour
     NavMeshAgent agent;
     public AudioSource soundSource;
     public AudioClip footStepsClip;
-    private float checkIfMoving, previousPos = 0;
+    public GameObject walkMessage;
+    public float checkIfMoving, previousPos = 0, msgTimer = 3;
+    bool hasWalked = false;
 
     // Use this for initialization
     void Start()
@@ -35,7 +37,7 @@ public class MoveToClickPoint : MonoBehaviour
                     //Move to location that was hit with raycast
                     agent.destination = hit.point;
                     agent.isStopped = false;
-
+                    hasWalked = true;
                 }
             }
         }
@@ -63,6 +65,19 @@ public class MoveToClickPoint : MonoBehaviour
         else
         {
             soundSource.Stop();
+        }
+
+        msgTimer -= Time.deltaTime;
+        Debug.Log("msgTimer: " + msgTimer);
+
+        if (!hasWalked && msgTimer <= 0)
+        {
+            walkMessage.SetActive(true);
+        }
+
+        if (hasWalked)
+        {
+            walkMessage.SetActive(false);
         }
     }
 }
