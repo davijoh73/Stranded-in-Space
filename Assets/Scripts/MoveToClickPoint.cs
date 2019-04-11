@@ -7,7 +7,7 @@ public class MoveToClickPoint : MonoBehaviour
     public AudioSource soundSource;
     public AudioClip footStepsClip;
     public GameObject walkMessage;
-    public float checkIfMoving, previousPos = 0, msgTimer = 3;
+    public float checkIfMoving, previousPos = 0, msgTimer = 10;
     bool hasWalked = false;
 
     // Use this for initialization
@@ -37,11 +37,13 @@ public class MoveToClickPoint : MonoBehaviour
                     //Move to location that was hit with raycast
                     agent.destination = hit.point;
                     agent.isStopped = false;
+                    //Boolean variable to indicate user has moved at least once
                     hasWalked = true;
                 }
             }
         }
 
+        //Calculation to determine if the player is actually moving
         checkIfMoving = (previousPos - agent.remainingDistance);
         previousPos = agent.remainingDistance;
 
@@ -67,14 +69,20 @@ public class MoveToClickPoint : MonoBehaviour
             soundSource.Stop();
         }
 
-        msgTimer -= Time.deltaTime;
-        Debug.Log("msgTimer: " + msgTimer);
+        //Continue counting down the message timer until it hits zero
+        if (msgTimer > 0)
+        {
+            msgTimer -= Time.deltaTime;
+            //Debug.Log("msgTimer: " + msgTimer);
+        }
 
+        //If the user has not moved yet, and the timer reaches zero, display help message
         if (!hasWalked && msgTimer <= 0)
         {
             walkMessage.SetActive(true);
         }
 
+        //Once user has walked once, remove the help message
         if (hasWalked)
         {
             walkMessage.SetActive(false);

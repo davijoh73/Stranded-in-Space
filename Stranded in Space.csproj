@@ -474,6 +474,7 @@
     <Compile Include="Assets\Scripts\OpenCrewCrate.cs" />
     <Compile Include="Assets\Scripts\OpenDeskDrawer.cs" />
     <Compile Include="Assets\Scripts\OpenLabCrate.cs" />
+    <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\ToiletFlush.cs" />
     <Compile Include="Assets\Scripts\VertCaptDoor.cs" />
     <Compile Include="Assets\Scripts\VertCrewDoor.cs" />
