@@ -126,6 +126,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ResonanceAudioMaterialMapperUpdater
 36cd6f8d7e08dc2582ba6f6ba39df992 Assembly-CSharp.dll:GoogleVR.VideoDemo.SwitchVideos
 846f17d2b1fd8b405b1f43993d8e697d Assembly-CSharp.dll:.GvrKeyboard
+8b98fa65e8ceafa0901ed26a1c867499 Assembly-CSharp.dll:.PauseGame
 cc7de481a73263c3d660caad00508c5b Assembly-CSharp.dll:QuickPrimitives.QcColumnMesh
 5adc88bf7d1c618314bc1a0f0b3d6c47 Assembly-CSharp.dll:.GvrAudioSoundfield
 bb0ad8cb9cb04ab265277fa3ffe5f4ff Assembly-CSharp.dll:GoogleVR.VideoDemo.ToggleAction
@@ -201,7 +202,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 878df31d996d9526d5b85802f655a553 Assembly-CSharp.dll:QuickPrimitives.QcPyramidMesh
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
-9381f00f32f7fb0ac0866cdb2b57e3a5 Assembly-CSharp.dll:.MoveToClickPoint
+77432138ce00c16f465385e92d9db224 Assembly-CSharp.dll:.MoveToClickPoint
 f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
