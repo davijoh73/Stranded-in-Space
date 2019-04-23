@@ -24,7 +24,7 @@ public class VertCrewDoor : MonoBehaviour
             //Debug.Log("Current position of leftSide: " + leftSide.transform.position.z);
         }
         //Once timer variable reaches zero, close door
-        else if (doorTimer <= 0 && leftSide.transform.position.z > 32.46975)
+        else if (doorTimer <= 0 && leftSide.transform.position.z > 32.46975f)
         {
             leftSide.transform.Translate(0.8f * Time.deltaTime, 0, 0);
             rightSide.transform.Translate(-0.8f * Time.deltaTime, 0, 0);

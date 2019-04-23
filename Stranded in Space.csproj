@@ -478,6 +478,7 @@
     <Compile Include="Assets\Scripts\ToiletFlush.cs" />
     <Compile Include="Assets\Scripts\VertCaptDoor.cs" />
     <Compile Include="Assets\Scripts\VertCrewDoor.cs" />
+    <Compile Include="Assets\Scripts\VertCrewDoor2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
