@@ -31,7 +31,8 @@ public class PauseGame : MonoBehaviour {
         if (longPressTimer <= 0 && !gamePaused)
         {
             gamePaused = true;
-            Debug.Log("Game is paused");
+            pauseScreen.SetActive(true);
+            //Debug.Log("Game is paused");
         }
 
         //Game will be unpaused via resume button on pause screen
