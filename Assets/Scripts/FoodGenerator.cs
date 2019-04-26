@@ -12,6 +12,8 @@ public class FoodGenerator : MonoBehaviour
     public AudioSource buttonSoundSource, foodGenSoundSource;
     public AudioClip buttonPressSound;
     private int buttonToggle=0;
+    public bool createOatmeal = false;
+    private float oatmealTimer = 1;
 
     // Use this for initialization
     void Start()
@@ -26,6 +28,19 @@ public class FoodGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (createOatmeal)  //function to make it appear that the food generator creates a bowl of oatmeal out of thin air
+        {
+            if(oatmealTimer >= 0)   //this timer allows for the particle generator to get started before making the bowl appear
+            {
+                oatmealTimer -= Time.deltaTime;
+            }
+            else
+            {
+                oatmealBowl.SetActive(true);    //once the timer hits zero, make the bowl appear
+                createOatmeal = false;  //stop the function from running once the bowl is set to active
+            }
+                
+        }
 
     }
 
@@ -76,7 +91,7 @@ public class FoodGenerator : MonoBehaviour
 
         //Initiate particle effect here and bring bowl of oatmeal into existence (fade in?)
         FoodGenParticle.Play();
-        oatmealBowl.SetActive(true);
+        createOatmeal = true;
 
     }
 

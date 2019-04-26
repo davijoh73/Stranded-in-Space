@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 120
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +92,8 @@ MonoBehaviour:
     y: 0
     width: 290
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 119
+  controlID: 121
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 120
+  controlID: 122
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 0
     width: 1249
     height: 676
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -354,9 +354,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -26.15795, y: -12.875757, z: 26.116854}
+    m_Target: {x: 2.5223625, y: -9.442864, z: 57.592945}
     speed: 2
-    m_Value: {x: -26.15795, y: -12.875757, z: 26.116854}
+    m_Value: {x: 2.5223625, y: -9.442864, z: 57.592945}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -380,9 +380,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.078901656, y: -0.8976658, z: 0.17945185, w: 0.39467424}
+    m_Target: {x: -0.13082063, y: -0.15393713, z: 0.020568006, w: -0.97916615}
     speed: 2
-    m_Value: {x: 0.078901656, y: -0.8976658, z: 0.17945185, w: 0.39467424}
+    m_Value: {x: -0.13082063, y: -0.15393713, z: 0.020568006, w: -0.97916615}
   m_Size:
     m_Target: 41.81084
     speed: 2
@@ -523,19 +523,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SciFiPack1/Models/Materials
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 48
   m_LastFolders:
-  - Assets/SciFiPack1/Models/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: 48
   m_LastProjectPath: D:\VR Projects\Stranded in Space
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 107}
-    m_SelectedIDs: 2e2e0000
-    m_LastClickedID: 11822
-    m_ExpandedIDs: 00000000162a0000362a00002e2b0000282c00002e2c0000822c0000d22c0000382e00009c30000028310000ec480000ffffff7f
+    m_SelectedIDs: 922c0000
+    m_LastClickedID: 11410
+    m_ExpandedIDs: 00000000162a0000362a00002e2b0000282c00002e2c0000822c0000d22c0000382e00009c300000283100001e490000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000162a0000362a00002e2b0000282c00002e2c0000822c0000d22c0000382e00009c30000028310000ec480000
+    m_ExpandedIDs: 00000000162a0000362a00002e2b0000282c00002e2c0000822c0000d22c0000382e00009c300000283100001e490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     width: 379
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 114.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 248
@@ -681,9 +681,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 2e9afcff32ecfcffaa94ffff6cd5ffff2cf0ffff38f1ffff72f3ffff9efbffff0000000052350000b0360000d03b0000763d0000943e00004a400000bc410000f64400007a450000
+    m_SelectedIDs: fe350000
+    m_LastClickedID: 13822
+    m_ExpandedIDs: dc42fdff7678fdffc8f2ffff9efbffff0000000020390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
