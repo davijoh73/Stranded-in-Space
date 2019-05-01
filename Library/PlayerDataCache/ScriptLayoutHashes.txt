@@ -16,6 +16,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+df43e17a8355300c2a150859fcd78d1a Assembly-CSharp.dll:.VertCrewDoor2
 938a5cc0e0660c3060ea37bad7264738 Assembly-CSharp.dll:.BridgeDoor
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -141,7 +142,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 02b3ed7a96a61f88d81411c8d12dc1a5 Assembly-CSharp.dll:.ToiletFlush
 3b1ccbae460b4026384881dd76875a77 Assembly-CSharp.dll:.ResonanceAudioDemoManager
-d1c3e82f2b0cd58f69da28731aba569d Assembly-CSharp.dll:.FoodGenerator
+0006e8d1fa46e62a3f4068a1bd54fb4c Assembly-CSharp.dll:.FoodGenerator
 ec77655c5ce77d38cc1cb0eeb34b9999 Assembly-CSharp.dll:.OpenCrewCrate
 309a212665e739c7b5fe6bc112914c3d Assembly-CSharp.dll:QuickPrimitives.QcSectionMesh
 9c1218a87b0c607e9d8b2b769e607584 Assembly-CSharp.dll:QuickPrimitives.QcPrimitivesBase
